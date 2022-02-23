@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "*js": ["standard"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": 
+        "lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madrugalab/omicron.git"
@@ -24,6 +33,8 @@
   },
   "homepage": "https://github.com/madrugalab/omicron#readme",
   "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
     "standard": "^16.0.4"
   }
 }
