@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/madrugalab/omicron/issues"
   },
-  "homepage": "https://github.com/madrugalab/omicron#readme"
+  "homepage": "https://github.com/madrugalab/omicron#readme",
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
 }
