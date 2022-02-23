@@ -1,0 +1,40 @@
+{
+  "name": "omicron",
+  "version": "0.0.1",
+  "description": "API em NodeJS com Clean Architecture e TDD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*js": ["standard"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": 
+        "lint-staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madrugalab/omicron.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "clean",
+    "architecture",
+    "tdd"
+  ],
+  "author": "Samuel [salmoel] Verneck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madrugalab/omicron/issues"
+  },
+  "homepage": "https://github.com/madrugalab/omicron#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "standard": "^16.0.4"
+  }
+}
